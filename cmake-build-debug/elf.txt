@@ -1,0 +1,468 @@
+ELF Header
+ magic number:  7f 45 4c 46 2 1 1 0 0 0 0 0 0 0 0 0 
+ Class:                                ELFCLASS32
+ Data:                                 little-endian
+ Version:                              1
+ OS/ABI:	                            System V ABI
+ ABI Version:                          EXEC  
+ Type:                                 EXEC
+ Machine:                              RSCV
+ Entry point address:                  0x100b0
+ Start of program headers:             64 bytes into  file
+ Start of section headers:             563256 bytes into  file
+ Flags:  0x4
+ Size of this header:                  64 Bytes
+ Size of program headers:              56 Bytes
+ Number of program headers:            2 
+ Size of section headers:              64  Bytes
+ Number of section headers:            22 
+ Section header string table index:    21 
+
+Section Headers
+  [  0] Type:   0x 00000000 Address:0x 00000000 Offest: 0x 00000000 Size:   0x 00000000
+ Entsize:0x 00000000 Flags:  0x 00000000 Link:   0x 0   Info:        0 Align:       0 Name:    
+   [  1] Type:   0x 00000001 Address:0x 000100b0 Offest: 0x 000000b0 Size:   0x 0000f92c
+ Entsize:0x 00000000 Flags:  0x 00000006 Link:   0x 0   Info:        0 Align:       4 Name:    .text
+   [  2] Type:   0x 00000001 Address:0x 0001f9e0 Offest: 0x 0000f9e0 Size:   0x 00001080
+ Entsize:0x 00000000 Flags:  0x 00000002 Link:   0x 0   Info:        0 Align:       10 Name:    .rodata
+   [  3] Type:   0x 00000001 Address:0x 00020a60 Offest: 0x 00010a60 Size:   0x 000003c8
+ Entsize:0x 00000000 Flags:  0x 00000002 Link:   0x 0   Info:        0 Align:       8 Name:    .eh_frame
+   [  4] Type:   0x 0000000e Address:0x 00021e28 Offest: 0x 00010e28 Size:   0x 00000008
+ Entsize:0x 00000008 Flags:  0x 00000003 Link:   0x 0   Info:        0 Align:       8 Name:    .init_array
+   [  5] Type:   0x 0000000f Address:0x 00021e30 Offest: 0x 00010e30 Size:   0x 00000008
+ Entsize:0x 00000008 Flags:  0x 00000003 Link:   0x 0   Info:        0 Align:       8 Name:    .fini_array
+   [  6] Type:   0x 00000001 Address:0x 00021e38 Offest: 0x 00010e38 Size:   0x 000660d0
+ Entsize:0x 00000000 Flags:  0x 00000003 Link:   0x 0   Info:        0 Align:       8 Name:    .data
+   [  7] Type:   0x 00000001 Address:0x 00087f08 Offest: 0x 00076f08 Size:   0x 00000048
+ Entsize:0x 00000000 Flags:  0x 00000003 Link:   0x 0   Info:        0 Align:       8 Name:    .sdata
+   [  8] Type:   0x 00000008 Address:0x 00087f50 Offest: 0x 00076f50 Size:   0x 00000028
+ Entsize:0x 00000000 Flags:  0x 00000003 Link:   0x 0   Info:        0 Align:       8 Name:    .sbss
+   [  9] Type:   0x 00000008 Address:0x 00087f78 Offest: 0x 00076f50 Size:   0x 002c0078
+ Entsize:0x 00000000 Flags:  0x 00000003 Link:   0x 0   Info:        0 Align:       8 Name:    .bss
+   [ 10] Type:   0x 00000001 Address:0x 00000000 Offest: 0x 00076f50 Size:   0x 00000011
+ Entsize:0x 00000001 Flags:  0x 00000030 Link:   0x 0   Info:        0 Align:       1 Name:    .comment
+   [ 11] Type:   0x 00000001 Address:0x 00000000 Offest: 0x 00076f61 Size:   0x 00000200
+ Entsize:0x 00000000 Flags:  0x 00000000 Link:   0x 0   Info:        0 Align:       1 Name:    .debug_aranges
+   [ 12] Type:   0x 00000001 Address:0x 00000000 Offest: 0x 00077161 Size:   0x 000037cf
+ Entsize:0x 00000000 Flags:  0x 00000000 Link:   0x 0   Info:        0 Align:       1 Name:    .debug_info
+   [ 13] Type:   0x 00000001 Address:0x 00000000 Offest: 0x 0007a930 Size:   0x 00001169
+ Entsize:0x 00000000 Flags:  0x 00000000 Link:   0x 0   Info:        0 Align:       1 Name:    .debug_abbrev
+   [ 14] Type:   0x 00000001 Address:0x 00000000 Offest: 0x 0007ba99 Size:   0x 00002189
+ Entsize:0x 00000000 Flags:  0x 00000000 Link:   0x 0   Info:        0 Align:       1 Name:    .debug_line
+   [ 15] Type:   0x 00000001 Address:0x 00000000 Offest: 0x 0007dc28 Size:   0x 00000270
+ Entsize:0x 00000000 Flags:  0x 00000000 Link:   0x 0   Info:        0 Align:       8 Name:    .debug_frame
+   [ 16] Type:   0x 00000001 Address:0x 00000000 Offest: 0x 0007de98 Size:   0x 00000f56
+ Entsize:0x 00000001 Flags:  0x 00000030 Link:   0x 0   Info:        0 Align:       1 Name:    .debug_str
+   [ 17] Type:   0x 00000001 Address:0x 00000000 Offest: 0x 0007edee Size:   0x 00006556
+ Entsize:0x 00000000 Flags:  0x 00000000 Link:   0x 0   Info:        0 Align:       1 Name:    .debug_loc
+   [ 18] Type:   0x 00000001 Address:0x 00000000 Offest: 0x 00085344 Size:   0x 00000e60
+ Entsize:0x 00000000 Flags:  0x 00000000 Link:   0x 0   Info:        0 Align:       1 Name:    .debug_ranges
+   [ 19] Type:   0x 00000002 Address:0x 00000000 Offest: 0x 000861a8 Size:   0x 00002520
+ Entsize:0x 00000018 Flags:  0x 00000000 Link:   0x 20   Info:        160 Align:       8 Name:    .symtab
+   [ 20] Type:   0x 00000003 Address:0x 00000000 Offest: 0x 000886c8 Size:   0x 0000109b
+ Entsize:0x 00000000 Flags:  0x 00000000 Link:   0x 0   Info:        0 Align:       1 Name:    .strtab
+   [ 21] Type:   0x 00000003 Address:0x 00000000 Offest: 0x 00089763 Size:   0x 000000d2
+ Entsize:0x 00000000 Flags:  0x 00000000 Link:   0x 0   Info:        0 Align:       1 Name:    .shstrtab
+  
+Phdr                
+ [  0]
+ Type:    Flags:    Offset:   0x 0  VirtAddr: 0x 10000 PhysAddr: 0x 10000 FileSiz:  0x 10e28 MemSiz:   0x 10e28 Align:    0x 1000
+ [  1]
+ Type:    Flags:    Offset:   0x 10e28  VirtAddr: 0x 21e28 PhysAddr: 0x 21e28 FileSiz:  0x 66128 MemSiz:   0x 3261c8 Align:    0x 1000
+
+Symbol Tabel
+ [  0]    Bind:  0x003 Type:  0x000 NDX:   0x00000001 Size:  000 Value: 0x000100b0 Name:  
+ [  1]    Bind:  0x003 Type:  0x000 NDX:   0x00000002 Size:  000 Value: 0x0001f9e0 Name:  
+ [  2]    Bind:  0x003 Type:  0x000 NDX:   0x00000003 Size:  000 Value: 0x00020a60 Name:  
+ [  3]    Bind:  0x003 Type:  0x000 NDX:   0x00000004 Size:  000 Value: 0x00021e28 Name:  
+ [  4]    Bind:  0x003 Type:  0x000 NDX:   0x00000005 Size:  000 Value: 0x00021e30 Name:  
+ [  5]    Bind:  0x003 Type:  0x000 NDX:   0x00000006 Size:  000 Value: 0x00021e38 Name:  
+ [  6]    Bind:  0x003 Type:  0x000 NDX:   0x00000007 Size:  000 Value: 0x00087f08 Name:  
+ [  7]    Bind:  0x003 Type:  0x000 NDX:   0x00000008 Size:  000 Value: 0x00087f50 Name:  
+ [  8]    Bind:  0x003 Type:  0x000 NDX:   0x00000009 Size:  000 Value: 0x00087f78 Name:  
+ [  9]    Bind:  0x003 Type:  0x000 NDX:   0x0000000a Size:  000 Value: 0x00000000 Name:  
+ [ 10]    Bind:  0x003 Type:  0x000 NDX:   0x0000000b Size:  000 Value: 0x00000000 Name:  
+ [ 11]    Bind:  0x003 Type:  0x000 NDX:   0x0000000c Size:  000 Value: 0x00000000 Name:  
+ [ 12]    Bind:  0x003 Type:  0x000 NDX:   0x0000000d Size:  000 Value: 0x00000000 Name:  
+ [ 13]    Bind:  0x003 Type:  0x000 NDX:   0x0000000e Size:  000 Value: 0x00000000 Name:  
+ [ 14]    Bind:  0x003 Type:  0x000 NDX:   0x0000000f Size:  000 Value: 0x00000000 Name:  
+ [ 15]    Bind:  0x003 Type:  0x000 NDX:   0x00000010 Size:  000 Value: 0x00000000 Name:  
+ [ 16]    Bind:  0x003 Type:  0x000 NDX:   0x00000011 Size:  000 Value: 0x00000000 Name:  
+ [ 17]    Bind:  0x003 Type:  0x000 NDX:   0x00000012 Size:  000 Value: 0x00000000 Name:  
+ [ 18]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  crtstuff.c
+ [ 19]    Bind:  0x001 Type:  0x000 NDX:   0x00000003 Size:  000 Value: 0x00020a60 Name:  __EH_FRAME_BEGIN__
+ [ 20]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  000 Value: 0x000100f8 Name:  deregister_tm_clones
+ [ 21]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  000 Value: 0x00010124 Name:  register_tm_clones
+ [ 22]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  000 Value: 0x00010160 Name:  __do_global_dtors_aux
+ [ 23]    Bind:  0x001 Type:  0x000 NDX:   0x00000009 Size:  001 Value: 0x00087f78 Name:  completed.5184
+ [ 24]    Bind:  0x001 Type:  0x000 NDX:   0x00000005 Size:  000 Value: 0x00021e30 Name:  __do_global_dtors_aux_fini_array_entry
+ [ 25]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  000 Value: 0x000101b4 Name:  frame_dummy
+ [ 26]    Bind:  0x001 Type:  0x000 NDX:   0x00000009 Size:  048 Value: 0x00087f80 Name:  object.5189
+ [ 27]    Bind:  0x001 Type:  0x000 NDX:   0x00000004 Size:  000 Value: 0x00021e28 Name:  __frame_dummy_init_array_entry
+ [ 28]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  CNN.cpp
+ [ 29]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  atexit.c
+ [ 30]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  exit.c
+ [ 31]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  fini.c
+ [ 32]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  impure.c
+ [ 33]    Bind:  0x001 Type:  0x000 NDX:   0x00000006 Size:  1864 Value: 0x00086e08 Name:  impure_data
+ [ 34]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  init.c
+ [ 35]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  printf.c
+ [ 36]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  puts.c
+ [ 37]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  strlen.c
+ [ 38]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  system.c
+ [ 39]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  vfprintf.c
+ [ 40]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  184 Value: 0x00013ff0 Name:  __sbprintf
+ [ 41]    Bind:  0x001 Type:  0x000 NDX:   0x00000002 Size:  016 Value: 0x0001fed8 Name:  blanks.4412
+ [ 42]    Bind:  0x001 Type:  0x000 NDX:   0x00000002 Size:  016 Value: 0x0001fee8 Name:  zeroes.4413
+ [ 43]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  wsetup.c
+ [ 44]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  __atexit.c
+ [ 45]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  __call_atexit.c
+ [ 46]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  errno.c
+ [ 47]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  fflush.c
+ [ 48]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  findfp.c
+ [ 49]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  008 Value: 0x00014600 Name:  __fp_lock
+ [ 50]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  128 Value: 0x00014614 Name:  std.isra.0
+ [ 51]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  008 Value: 0x00014698 Name:  __fp_unlock
+ [ 52]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  mallocr.c
+ [ 53]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  fvwrite.c
+ [ 54]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  fwalk.c
+ [ 55]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  ldtoa.c
+ [ 56]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  020 Value: 0x000151f4 Name:  eclear
+ [ 57]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  028 Value: 0x00015208 Name:  emov
+ [ 58]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  020 Value: 0x00015224 Name:  ecleaz
+ [ 59]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  036 Value: 0x00015238 Name:  emovz
+ [ 60]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  060 Value: 0x0001525c Name:  ecmpm
+ [ 61]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  080 Value: 0x00015298 Name:  eshdn1
+ [ 62]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  084 Value: 0x000152e8 Name:  eshup1
+ [ 63]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  052 Value: 0x0001533c Name:  eshdn8
+ [ 64]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  040 Value: 0x00015370 Name:  eshup8
+ [ 65]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  032 Value: 0x00015398 Name:  eshup6
+ [ 66]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  040 Value: 0x000153b8 Name:  eshdn6
+ [ 67]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  056 Value: 0x000153e0 Name:  eaddm
+ [ 68]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  056 Value: 0x00015418 Name:  esubm
+ [ 69]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  152 Value: 0x00015450 Name:  m16m
+ [ 70]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  052 Value: 0x000154e8 Name:  eisnan
+ [ 71]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  056 Value: 0x0001551c Name:  eisneg
+ [ 72]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  208 Value: 0x00015554 Name:  emovi
+ [ 73]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  256 Value: 0x00015624 Name:  ecmp
+ [ 74]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  052 Value: 0x00015724 Name:  eisinf
+ [ 75]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  040 Value: 0x00015758 Name:  einfin.isra.2
+ [ 76]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  344 Value: 0x00015780 Name:  eshift.part.3
+ [ 77]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  216 Value: 0x000158d8 Name:  enormlz
+ [ 78]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  040 Value: 0x000159b0 Name:  enan.constprop.12
+ [ 79]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  112 Value: 0x000159d8 Name:  emovo.isra.6
+ [ 80]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  260 Value: 0x00015a48 Name:  e113toe.isra.8
+ [ 81]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  840 Value: 0x00015b50 Name:  emdnorm
+ [ 82]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  228 Value: 0x00015e98 Name:  eiremain
+ [ 83]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  680 Value: 0x00015f7c Name:  emul
+ [ 84]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  844 Value: 0x00016224 Name:  ediv
+ [ 85]    Bind:  0x001 Type:  0x000 NDX:   0x00000002 Size:  020 Value: 0x0001ff88 Name:  ezero
+ [ 86]    Bind:  0x001 Type:  0x000 NDX:   0x00000002 Size:  020 Value: 0x0001ffa0 Name:  eone
+ [ 87]    Bind:  0x001 Type:  0x000 NDX:   0x00000002 Size:  260 Value: 0x0001ffb8 Name:  etens
+ [ 88]    Bind:  0x001 Type:  0x000 NDX:   0x00000002 Size:  034 Value: 0x000200c0 Name:  bmask
+ [ 89]    Bind:  0x001 Type:  0x000 NDX:   0x00000002 Size:  260 Value: 0x000200e8 Name:  emtens
+ [ 90]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  localeconv.c
+ [ 91]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  locale.c
+ [ 92]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  makebuf.c
+ [ 93]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  mallocr.c
+ [ 94]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  mbtowc_r.c
+ [ 95]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  memchr.c
+ [ 96]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  memcpy.c
+ [ 97]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  memmove.c
+ [ 98]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  mlock.c
+ [ 99]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  mprec.c
+ [100]    Bind:  0x001 Type:  0x000 NDX:   0x00000002 Size:  012 Value: 0x00020240 Name:  p05.3236
+ [101]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  mallocr.c
+ [102]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  sbrkr.c
+ [103]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  s_frexp.c
+ [104]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  sprintf.c
+ [105]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  stdio.c
+ [106]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  lib_a-strcmp.o
+ [107]    Bind:  0x000 Type:  0x000 NDX:   0x00000007 Size:  000 Value: 0x00087f20 Name:  mask
+ [108]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  strcpy.c
+ [109]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  strncpy.c
+ [110]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  vfprintf.c
+ [111]    Bind:  0x001 Type:  0x000 NDX:   0x00000002 Size:  016 Value: 0x000204d8 Name:  blanks.4397
+ [112]    Bind:  0x001 Type:  0x000 NDX:   0x00000002 Size:  016 Value: 0x000204e8 Name:  zeroes.4398
+ [113]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  vfprintf.c
+ [114]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  184 Value: 0x0001c088 Name:  __sbprintf
+ [115]    Bind:  0x001 Type:  0x000 NDX:   0x00000002 Size:  016 Value: 0x00020668 Name:  blanks.4388
+ [116]    Bind:  0x001 Type:  0x000 NDX:   0x00000002 Size:  016 Value: 0x00020678 Name:  zeroes.4389
+ [117]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  wctomb_r.c
+ [118]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  writer.c
+ [119]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  mallocr.c
+ [120]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  closer.c
+ [121]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  ctype_.c
+ [122]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  fclose.c
+ [123]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  fputwc.c
+ [124]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  fstatr.c
+ [125]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  isattyr.c
+ [126]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  lseekr.c
+ [127]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  readr.c
+ [128]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  reent.c
+ [129]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  vfprintf.c
+ [130]    Bind:  0x001 Type:  0x000 NDX:   0x00000002 Size:  016 Value: 0x00020900 Name:  blanks.4374
+ [131]    Bind:  0x001 Type:  0x000 NDX:   0x00000002 Size:  016 Value: 0x00020910 Name:  zeroes.4375
+ [132]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  wbuf.c
+ [133]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  wcrtomb.c
+ [134]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  syscalls.c
+ [135]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  108 Value: 0x0001d724 Name:  conv_stat
+ [136]    Bind:  0x002 Type:  0x000 NDX:   0x00000001 Size:  036 Value: 0x0001d7c0 Name:  __internal_syscall
+ [137]    Bind:  0x001 Type:  0x000 NDX:   0x00000008 Size:  008 Value: 0x00087f70 Name:  heap_end.2611
+ [138]    Bind:  0x001 Type:  0x000 NDX:   0x00000009 Size:  016 Value: 0x00347fd8 Name:  t0.2574
+ [139]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  eqtf2.c
+ [140]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  getf2.c
+ [141]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  letf2.c
+ [142]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  multf3.c
+ [143]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  subtf3.c
+ [144]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  fixtfsi.c
+ [145]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  floatsitf.c
+ [146]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  extenddftf2.c
+ [147]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  trunctfdf2.c
+ [148]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  libgcc2.c
+ [149]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  libgcc2.c
+ [150]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  crtstuff.c
+ [151]    Bind:  0x001 Type:  0x000 NDX:   0x00000003 Size:  000 Value: 0x00020e24 Name:  __FRAME_END__
+ [152]    Bind:  0x004 Type:  0x000 NDX:   0xfffffff1 Size:  000 Value: 0x00000000 Name:  
+ [153]    Bind:  0x000 Type:  0x000 NDX:   0x00000005 Size:  000 Value: 0x00021e38 Name:  __fini_array_end
+ [154]    Bind:  0x000 Type:  0x000 NDX:   0x00000005 Size:  000 Value: 0x00021e30 Name:  __fini_array_start
+ [155]    Bind:  0x000 Type:  0x000 NDX:   0x00000004 Size:  000 Value: 0x00021e30 Name:  __init_array_end
+ [156]    Bind:  0x000 Type:  0x000 NDX:   0x00000004 Size:  000 Value: 0x00021e28 Name:  __preinit_array_end
+ [157]    Bind:  0x000 Type:  0x000 NDX:   0x00000004 Size:  000 Value: 0x00021e28 Name:  __init_array_start
+ [158]    Bind:  0x000 Type:  0x000 NDX:   0x00000004 Size:  000 Value: 0x00021e28 Name:  __preinit_array_start
+ [159]    Bind:  0x022 Type:  0x000 NDX:   0x00000001 Size:  232 Value: 0x00011a54 Name:  _ZN9data_blob9fill_zeroEv
+ [160]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  064 Value: 0x00018b44 Name:  _mprec_log10
+ [161]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  104 Value: 0x00018bd4 Name:  __any_on
+ [162]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  076 Value: 0x0001c598 Name:  _isatty_r
+ [163]    Bind:  0x011 Type:  0x000 NDX:   0x00000002 Size:  040 Value: 0x00020318 Name:  __mprec_tinytens
+ [164]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  028 Value: 0x000195bc Name:  strcpy
+ [165]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  064 Value: 0x0001c68c Name:  cleanup_glue
+ [166]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  200 Value: 0x000120cc Name:  _puts_r
+ [167]    Bind:  0x022 Type:  0x000 NDX:   0x00000001 Size:  152 Value: 0x000118bc Name:  _ZN9data_blobC2Eiii
+ [168]    Bind:  0x011 Type:  0x000 NDX:   0x00000009 Size:  262144 Value: 0x00147fb0 Name:  L_1_0
+ [169]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  084 Value: 0x0001c5e4 Name:  _lseek_r
+ [170]    Bind:  0x012 Type:  0x002 NDX:   0x00000001 Size:  264 Value: 0x0001de38 Name:  __getf2
+ [171]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  860 Value: 0x00010e48 Name:  _ZN13pooling_layer7forwardEv
+ [172]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  380 Value: 0x00010b64 Name:  _ZN19fully_connect_layer7forwardEv
+ [173]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  084 Value: 0x0001d988 Name:  fstatat
+ [174]    Bind:  0x012 Type:  0x002 NDX:   0x00000001 Size:  228 Value: 0x0001dd54 Name:  __eqtf2
+ [175]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  028 Value: 0x0001dc88 Name:  sysconf
+ [176]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  076 Value: 0x00012080 Name:  printf
+ [177]    Bind:  0x010 Type:  0x000 NDX:   0x00000007 Size:  000 Value: 0x00088708 Name:  __global_pointer$
+ [178]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  344 Value: 0x00010904 Name:  _ZN10ReLU_layer7forwardEv
+ [179]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  008 Value: 0x0001dc60 Name:  utime
+ [180]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  136 Value: 0x0001d688 Name:  _wcrtomb_r
+ [181]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  084 Value: 0x00019430 Name:  __sseek
+ [182]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  128 Value: 0x00014714 Name:  __sinit
+ [183]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  304 Value: 0x0001d548 Name:  __swbuf_r
+ [184]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  100 Value: 0x000108a0 Name:  _ZN10ReLU_layer13assign_outputEP9data_blob
+ [185]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  116 Value: 0x00017248 Name:  _setlocale_r
+ [186]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  108 Value: 0x000146a0 Name:  __sfmoreglue
+ [187]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  004 Value: 0x00017d1c Name:  __malloc_unlock
+ [188]    Bind:  0x012 Type:  0x002 NDX:   0x00000001 Size:  196 Value: 0x0001f46c Name:  __floatsitf
+ [189]    Bind:  0x022 Type:  0x000 NDX:   0x00000001 Size:  208 Value: 0x00011c48 Name:  _ZN10conv_layerC2Eiiiiii
+ [190]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  084 Value: 0x00017cc4 Name:  memmove
+ [191]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  008 Value: 0x0001470c Name:  _cleanup
+ [192]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  028 Value: 0x000172e0 Name:  __locale_ctype_ptr
+ [193]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  168 Value: 0x00017d20 Name:  _Balloc
+ [194]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  048 Value: 0x0001da0c Name:  faccessat
+ [195]    Bind:  0x011 Type:  0x000 NDX:   0x00000009 Size:  262144 Value: 0x00287fb0 Name:  L_2_2
+ [196]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  008 Value: 0x00014378 Name:  __errno
+ [197]    Bind:  0x011 Type:  0x000 NDX:   0x00000006 Size:  256 Value: 0x0007ccb8 Name:  bias_2
+ [198]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  140 Value: 0x0001dbc4 Name:  times
+ [199]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  008 Value: 0x00017208 Name:  __localeconv_l
+ [200]    Bind:  0x022 Type:  0x000 NDX:   0x00000001 Size:  108 Value: 0x00011d5c Name:  _ZN19fully_connect_layerC2Eii
+ [201]    Bind:  0x022 Type:  0x000 NDX:   0x00000001 Size:  208 Value: 0x00011954 Name:  _ZN9data_blob7reshapeERS_iii
+ [202]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  080 Value: 0x0001c548 Name:  _fstat_r
+ [203]    Bind:  0x011 Type:  0x000 NDX:   0x00000009 Size:  004 Value: 0x00347fe8 Name:  errno
+ [204]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  008 Value: 0x000193a4 Name:  __seofread
+ [205]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  036 Value: 0x0001dacc Name:  execve
+ [206]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  008 Value: 0x0001db14 Name:  getpid
+ [207]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  160 Value: 0x00010ce0 Name:  _Z5max_4iiii
+ [208]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  232 Value: 0x00017bdc Name:  memcpy
+ [209]    Bind:  0x022 Type:  0x000 NDX:   0x00000001 Size:  068 Value: 0x00011dc8 Name:  _ZN13pooling_layerC2Ei
+ [210]    Bind:  0x011 Type:  0x002 NDX:   0x00000007 Size:  000 Value: 0x00087f08 Name:  __TMC_END__
+ [211]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  012 Value: 0x00014608 Name:  _cleanup_r
+ [212]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  7524 Value: 0x00019620 Name:  _svfprintf_r
+ [213]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  012 Value: 0x00012194 Name:  puts
+ [214]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  220 Value: 0x00018a68 Name:  __ratio
+ [215]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  048 Value: 0x000121ec Name:  system
+ [216]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  064 Value: 0x00012040 Name:  _printf_r
+ [217]    Bind:  0x012 Type:  0x002 NDX:   0x00000001 Size:  264 Value: 0x0001df40 Name:  __letf2
+ [218]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  048 Value: 0x0001db64 Name:  isatty
+ [219]    Bind:  0x011 Type:  0x000 NDX:   0x00000002 Size:  200 Value: 0x00020250 Name:  __mprec_tens
+ [220]    Bind:  0x011 Type:  0x000 NDX:   0x00000008 Size:  008 Value: 0x00087f68 Name:  __malloc_top_pad
+ [221]    Bind:  0x011 Type:  0x002 NDX:   0x00000007 Size:  000 Value: 0x00087f28 Name:  __dso_handle
+ [222]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  028 Value: 0x00017210 Name:  _localeconv_r
+ [223]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  052 Value: 0x0001813c Name:  __i2b
+ [224]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  1132 Value: 0x00014c2c Name:  __sfvwrite_r
+ [225]    Bind:  0x011 Type:  0x000 NDX:   0x00000009 Size:  262144 Value: 0x001c7fb0 Name:  L_1_2
+ [226]    Bind:  0x011 Type:  0x000 NDX:   0x00000006 Size:  080 Value: 0x00086db8 Name:  bias_3
+ [227]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  076 Value: 0x0001919c Name:  _sbrk_r
+ [228]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  084 Value: 0x0001c638 Name:  _read_r
+ [229]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  220 Value: 0x0001c2cc Name:  _fclose_r
+ [230]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  032 Value: 0x000145e0 Name:  fflush
+ [231]    Bind:  0x011 Type:  0x000 NDX:   0x00000008 Size:  008 Value: 0x00087f60 Name:  __malloc_max_sbrked_mem
+ [232]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  048 Value: 0x000121bc Name:  _system_r
+ [233]    Bind:  0x022 Type:  0x000 NDX:   0x00000001 Size:  068 Value: 0x00011dc8 Name:  _ZN13pooling_layerC1Ei
+ [234]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  332 Value: 0x000187d8 Name:  __b2d
+ [235]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  024 Value: 0x0001d844 Name:  lseek
+ [236]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  064 Value: 0x000101e8 Name:  _ZN10conv_layer12assign_modelEPiS0_
+ [237]    Bind:  0x011 Type:  0x000 NDX:   0x00000007 Size:  008 Value: 0x00087f30 Name:  _global_impure_ptr
+ [238]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  008 Value: 0x0001dc68 Name:  chown
+ [239]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  064 Value: 0x00010a5c Name:  _ZN19fully_connect_layer12assign_modelEPiS0_
+ [240]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  1376 Value: 0x00018c3c Name:  _realloc_r
+ [241]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  160 Value: 0x00011ec4 Name:  __libc_init_array
+ [242]    Bind:  0x022 Type:  0x000 NDX:   0x00000001 Size:  208 Value: 0x00011c48 Name:  _ZN10conv_layerC1Eiiiiii
+ [243]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  044 Value: 0x0001c4c8 Name:  _fputwc_r
+ [244]    Bind:  0x011 Type:  0x000 NDX:   0x00000002 Size:  040 Value: 0x00020340 Name:  __mprec_bigtens
+ [245]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  276 Value: 0x00017eec Name:  __s2b
+ [246]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  084 Value: 0x00018594 Name:  __mcmp
+ [247]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  008 Value: 0x0001dc70 Name:  chmod
+ [248]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  016 Value: 0x0001488c Name:  __fp_lock_all
+ [249]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  000 Value: 0x000100f4 Name:  _init
+ [250]    Bind:  0x011 Type:  0x000 NDX:   0x00000006 Size:  40960 Value: 0x0007cdb8 Name:  weight_3
+ [251]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  116 Value: 0x00011e50 Name:  __libc_fini_array
+ [252]    Bind:  0x011 Type:  0x000 NDX:   0x00000006 Size:  258048 Value: 0x00021e38 Name:  img_set
+ [253]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  264 Value: 0x0001c6cc Name:  _reclaim_reent
+ [254]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  100 Value: 0x0001083c Name:  _ZN10ReLU_layer12assign_inputEP9data_blob
+ [255]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  116 Value: 0x00018000 Name:  __hi0bits
+ [256]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  100 Value: 0x00010de4 Name:  _ZN13pooling_layer13assign_outputEP9data_blob
+ [257]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  024 Value: 0x0001d874 Name:  write
+ [258]    Bind:  0x022 Type:  0x000 NDX:   0x00000001 Size:  048 Value: 0x00011a24 Name:  _ZN9data_blob11assign_dataEPi
+ [259]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  080 Value: 0x0001d88c Name:  fstat
+ [260]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  036 Value: 0x0001db1c Name:  kill
+ [261]    Bind:  0x012 Type:  0x002 NDX:   0x00000001 Size:  216 Value: 0x0001f394 Name:  __fixtfsi
+ [262]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  252 Value: 0x00018348 Name:  __pow5mult
+ [263]    Bind:  0x011 Type:  0x000 NDX:   0x00000006 Size:  73728 Value: 0x0006acb8 Name:  filter_2
+ [264]    Bind:  0x022 Type:  0x000 NDX:   0x00000001 Size:  152 Value: 0x000118bc Name:  _ZN9data_blobC1Eiii
+ [265]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  008 Value: 0x0001dc78 Name:  chdir
+ [266]    Bind:  0x011 Type:  0x000 NDX:   0x00000009 Size:  262144 Value: 0x00107fb0 Name:  L_0_2
+ [267]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  004 Value: 0x0001487c Name:  __sfp_lock_acquire
+ [268]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  036 Value: 0x00017bb8 Name:  memchr
+ [269]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  100 Value: 0x00019280 Name:  _sprintf_r
+ [270]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  616 Value: 0x000149c4 Name:  _free_r
+ [271]    Bind:  0x011 Type:  0x000 NDX:   0x00000009 Size:  262144 Value: 0x00087fb0 Name:  L_0_0
+ [272]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  036 Value: 0x0001db40 Name:  wait
+ [273]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  100 Value: 0x00010228 Name:  _ZN10conv_layer12assign_inputEP9data_blob
+ [274]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  028 Value: 0x000172bc Name:  __locale_mb_cur_max
+ [275]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  276 Value: 0x00014264 Name:  __call_exitprocs
+ [276]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  100 Value: 0x00010b00 Name:  _ZN19fully_connect_layer13assign_outputEP9data_blob
+ [277]    Bind:  0x011 Type:  0x000 NDX:   0x00000006 Size:  128 Value: 0x0006ac38 Name:  bias_1
+ [278]    Bind:  0x011 Type:  0x000 NDX:   0x00000007 Size:  008 Value: 0x00087f40 Name:  __malloc_sbrk_base
+ [279]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  068 Value: 0x000100b0 Name:  _start
+ [280]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  084 Value: 0x0001d934 Name:  lstat
+ [281]    Bind:  0x011 Type:  0x000 NDX:   0x00000009 Size:  262144 Value: 0x002c7fb0 Name:  L_3_0
+ [282]    Bind:  0x022 Type:  0x000 NDX:   0x00000001 Size:  268 Value: 0x00011b3c Name:  _ZN9data_blob14load_raw_imageEPi
+ [283]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  336 Value: 0x00018444 Name:  __lshift
+ [284]    Bind:  0x012 Type:  0x002 NDX:   0x00000001 Size:  264 Value: 0x0001df40 Name:  __lttf2
+ [285]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  024 Value: 0x0001d85c Name:  read
+ [286]    Bind:  0x012 Type:  0x002 NDX:   0x00000001 Size:  228 Value: 0x0001dd54 Name:  __netf2
+ [287]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  476 Value: 0x0001c7d8 Name:  __ssprint_r
+ [288]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  132 Value: 0x000141e0 Name:  __register_exitproc
+ [289]    Bind:  0x022 Type:  0x000 NDX:   0x00000001 Size:  108 Value: 0x00011d5c Name:  _ZN19fully_connect_layerC1Eii
+ [290]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  084 Value: 0x000171b4 Name:  _ldcheck
+ [291]    Bind:  0x011 Type:  0x000 NDX:   0x00000009 Size:  262144 Value: 0x00247fb0 Name:  L_2_1
+ [292]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  472 Value: 0x00018170 Name:  __multiply
+ [293]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  072 Value: 0x000195d8 Name:  strncpy
+ [294]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  048 Value: 0x0001da9c Name:  unlink
+ [295]    Bind:  0x011 Type:  0x000 NDX:   0x00000009 Size:  040 Value: 0x00347fb0 Name:  __malloc_current_mallinfo
+ [296]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  324 Value: 0x00018924 Name:  __d2b
+ [297]    Bind:  0x022 Type:  0x000 NDX:   0x00000001 Size:  068 Value: 0x00011d18 Name:  _ZN10ReLU_layerC1Ei
+ [298]    Bind:  0x012 Type:  0x002 NDX:   0x00000001 Size:  348 Value: 0x0001f530 Name:  __extenddftf2
+ [299]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  076 Value: 0x0001c280 Name:  _close_r
+ [300]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  036 Value: 0x0001daf0 Name:  fork
+ [301]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  308 Value: 0x000140ac Name:  __swsetup_r
+ [302]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  228 Value: 0x00014798 Name:  __sfp
+ [303]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  080 Value: 0x00018b84 Name:  __copybits
+ [304]    Bind:  0x011 Type:  0x000 NDX:   0x00000006 Size:  2064 Value: 0x000876f8 Name:  __malloc_av_
+ [305]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  004 Value: 0x00014888 Name:  __sinit_lock_release
+ [306]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  080 Value: 0x00019354 Name:  __sread
+ [307]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  048 Value: 0x0001d790 Name:  __syscall_error
+ [308]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  004 Value: 0x00017d18 Name:  __malloc_lock
+ [309]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  140 Value: 0x0001dca4 Name:  sbrk
+ [310]    Bind:  0x011 Type:  0x000 NDX:   0x00000009 Size:  262144 Value: 0x00307fb0 Name:  L_3_2
+ [311]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  088 Value: 0x00014588 Name:  _fflush_r
+ [312]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  156 Value: 0x0001c1e4 Name:  _calloc_r
+ [313]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  048 Value: 0x0001db94 Name:  gettimeofday
+ [314]    Bind:  0x010 Type:  0x000 NDX:   0x00000008 Size:  000 Value: 0x00087f50 Name:  __bss_start
+ [315]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  220 Value: 0x00011f64 Name:  memset
+ [316]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  1816 Value: 0x000111a4 Name:  main
+ [317]    Bind:  0x011 Type:  0x000 NDX:   0x00000008 Size:  008 Value: 0x00087f58 Name:  __malloc_max_total_mem
+ [318]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  016 Value: 0x0001d678 Name:  __swbuf
+ [319]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  008 Value: 0x00019488 Name:  __sclose
+ [320]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  012 Value: 0x0001c3a8 Name:  fclose
+ [321]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  1704 Value: 0x00017498 Name:  _malloc_r
+ [322]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  048 Value: 0x0001c160 Name:  __ascii_wctomb
+ [323]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  100 Value: 0x00010a9c Name:  _ZN19fully_connect_layer12assign_inputEP9data_blob
+ [324]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  164 Value: 0x00015098 Name:  _fwalk
+ [325]    Bind:  0x011 Type:  0x000 NDX:   0x00000009 Size:  262144 Value: 0x00207fb0 Name:  L_2_0
+ [326]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  028 Value: 0x00017b40 Name:  _mbtowc_r
+ [327]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  280 Value: 0x000148ac Name:  _malloc_trim_r
+ [328]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  300 Value: 0x00019490 Name:  strcmp
+ [329]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  020 Value: 0x0001c074 Name:  vfiprintf
+ [330]    Bind:  0x012 Type:  0x002 NDX:   0x00000001 Size:  2208 Value: 0x0001e048 Name:  __multf3
+ [331]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  008 Value: 0x0001dc80 Name:  getcwd
+ [332]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  000 Value: 0x000100f4 Name:  _fini
+ [333]    Bind:  0x011 Type:  0x000 NDX:   0x00000009 Size:  262144 Value: 0x00187fb0 Name:  L_1_1
+ [334]    Bind:  0x011 Type:  0x000 NDX:   0x00000006 Size:  128 Value: 0x00061bb8 Name:  bias_0
+ [335]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  112 Value: 0x000192e4 Name:  sprintf
+ [336]    Bind:  0x011 Type:  0x002 NDX:   0x00000002 Size:  256 Value: 0x00020960 Name:  __clz_tab
+ [337]    Bind:  0x011 Type:  0x000 NDX:   0x00000008 Size:  008 Value: 0x00087f50 Name:  _PathLocale
+ [338]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  020 Value: 0x00011e0c Name:  atexit
+ [339]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  084 Value: 0x0001c190 Name:  _write_r
+ [340]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  016 Value: 0x000172fc Name:  setlocale
+ [341]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  100 Value: 0x0001028c Name:  _ZN10conv_layer13assign_outputEP9data_blob
+ [342]    Bind:  0x011 Type:  0x000 NDX:   0x00000007 Size:  008 Value: 0x00087f38 Name:  _impure_ptr
+ [343]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  520 Value: 0x00014380 Name:  __sflush_r
+ [344]    Bind:  0x012 Type:  0x002 NDX:   0x00000001 Size:  264 Value: 0x0001de38 Name:  __gttf2
+ [345]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  2964 Value: 0x0001c9b4 Name:  _svfiprintf_r
+ [346]    Bind:  0x011 Type:  0x000 NDX:   0x00000006 Size:  36864 Value: 0x00061c38 Name:  filter_1
+ [347]    Bind:  0x011 Type:  0x000 NDX:   0x00000006 Size:  3456 Value: 0x00060e38 Name:  filter_0
+ [348]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  092 Value: 0x00017b5c Name:  __ascii_mbtowc
+ [349]    Bind:  0x012 Type:  0x002 NDX:   0x00000001 Size:  2732 Value: 0x0001e8e8 Name:  __subtf3
+ [350]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  128 Value: 0x00018758 Name:  __ulp
+ [351]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  016 Value: 0x0001489c Name:  __fp_unlock_all
+ [352]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  028 Value: 0x0001722c Name:  localeconv
+ [353]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  156 Value: 0x0001730c Name:  __swhatbuf_r
+ [354]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  016 Value: 0x0001dc50 Name:  ftime
+ [355]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  084 Value: 0x0001d8e0 Name:  stat
+ [356]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  048 Value: 0x0001d9dc Name:  access
+ [357]    Bind:  0x010 Type:  0x000 NDX:   0x00000007 Size:  000 Value: 0x00087f50 Name:  _edata
+ [358]    Bind:  0x010 Type:  0x000 NDX:   0x00000009 Size:  000 Value: 0x00347ff0 Name:  _end
+ [359]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  276 Value: 0x0001c3b4 Name:  __fputwc
+ [360]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  100 Value: 0x00010d80 Name:  _ZN13pooling_layer12assign_inputEP9data_blob
+ [361]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  132 Value: 0x000193ac Name:  __swrite
+ [362]    Bind:  0x011 Type:  0x000 NDX:   0x00000007 Size:  008 Value: 0x00087f48 Name:  __malloc_trim_threshold
+ [363]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  048 Value: 0x0001da6c Name:  link
+ [364]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  048 Value: 0x00011e20 Name:  exit
+ [365]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  3056 Value: 0x0001b484 Name:  _vfiprintf_r
+ [366]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  184 Value: 0x0001513c Name:  _fwalk_reent
+ [367]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  368 Value: 0x000185e8 Name:  __mdiff
+ [368]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  004 Value: 0x00014880 Name:  __sfp_lock_release
+ [369]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  3140 Value: 0x00016570 Name:  _ldtoa_r
+ [370]    Bind:  0x011 Type:  0x000 NDX:   0x00000002 Size:  257 Value: 0x00020688 Name:  _ctype_
+ [371]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  048 Value: 0x0001d814 Name:  openat
+ [372]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  036 Value: 0x0001dd30 Name:  _exit
+ [373]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  240 Value: 0x000173a8 Name:  __smakebuf_r
+ [374]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  028 Value: 0x000121a0 Name:  strlen
+ [375]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  008 Value: 0x000172d8 Name:  __locale_ctype_ptr_l
+ [376]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  048 Value: 0x0001d7e4 Name:  open
+ [377]    Bind:  0x022 Type:  0x000 NDX:   0x00000001 Size:  068 Value: 0x00011d18 Name:  _ZN10ReLU_layerC2Ei
+ [378]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  256 Value: 0x0001b384 Name:  __sprint_r
+ [379]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  028 Value: 0x0001c144 Name:  _wctomb_r
+ [380]    Bind:  0x012 Type:  0x002 NDX:   0x00000001 Size:  060 Value: 0x0001f9a0 Name:  __clzdi2
+ [381]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  7616 Value: 0x0001221c Name:  _vfprintf_r
+ [382]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  200 Value: 0x00018074 Name:  __lo0bits
+ [383]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  020 Value: 0x0001d710 Name:  wcrtomb
+ [384]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  048 Value: 0x0001da3c Name:  close
+ [385]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  152 Value: 0x000191e8 Name:  frexp
+ [386]    Bind:  0x011 Type:  0x000 NDX:   0x00000006 Size:  424 Value: 0x00087550 Name:  __global_locale
+ [387]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  020 Value: 0x00013fdc Name:  vfprintf
+ [388]    Bind:  0x012 Type:  0x002 NDX:   0x00000001 Size:  788 Value: 0x0001f68c Name:  __trunctfdf2
+ [389]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  084 Value: 0x0001c4f4 Name:  fputwc
+ [390]    Bind:  0x011 Type:  0x000 NDX:   0x00000009 Size:  262144 Value: 0x000c7fb0 Name:  L_0_1
+ [391]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  004 Value: 0x00014884 Name:  __sinit_lock_acquire
+ [392]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  1356 Value: 0x000102f0 Name:  _ZN10conv_layer7forwardEv
+ [393]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  256 Value: 0x00017dec Name:  __multadd
+ [394]    Bind:  0x012 Type:  0x000 NDX:   0x00000001 Size:  036 Value: 0x00017dc8 Name:  _Bfree

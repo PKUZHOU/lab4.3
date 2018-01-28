@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/riscv_simulator.dir/Read_Elf.cpp.o CMakeFiles/riscv_simulator.dir/Simulation.cpp.o  -o riscv_simulator 
